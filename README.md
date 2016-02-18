@@ -1,1 +1,1 @@
-This django app checks if a user entering a previously used password. For details check my [blog post]()
+This django app checks if a user entering a previously used password. For details check my [blog post](http://c0defreak.github.io/2016/02/18/django-password/)
