@@ -1,0 +1,9 @@
+{% extends "myapp/base.html" %}
+{% block content %}
+    {% if user.username %}
+    <p> Hello {{ user.username }} Nothing here</p>
+{% else %}
+    <p>Hello, You need to <a href="/login/">Login</a></p>
+{% endif %} 
+{% endblock content %}
+
